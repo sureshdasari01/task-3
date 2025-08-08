@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suresh Dasari - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+    }
+    header img {
+      width: 140px;
+      height: 180px; /* Passport size ratio */
+      border-radius: 8px;
+      border: 4px solid #fff;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0 5px;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      position: relative;
+    }
+    nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0;
+      height: 2px;
+      background: #ffce00;
+      transition: 0.3s;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #ffce00;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+    .highlight {
+      color: #ffce00;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="pandu.jpg" alt="Suresh Dasari" />
+    <h1>Suresh Dasari</h1>
+    <p>Aspiring Developer | Python & Web Development Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#summary">Summary</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#extras">More</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am <strong>Suresh Dasari</strong>, a passionate and motivated Computer Science student from Andhra Pradesh, currently pursuing my B.Tech in Computer Science Engineering at <strong>Madanapalle Institute of Technology & Science</strong> with a CGPA of 8.84.  
+        I have a strong foundation in <span class="highlight">Python programming</span> and <span class="highlight">Web Development</span>, along with excellent problem-solving and decision-making skills.  
+        I aim to leverage my knowledge to contribute to impactful projects while constantly learning new technologies.
+      </p>
+    </div>
+  </section>
+
+  <section id="summary" class="container">
+    <h2>Professional Summary</h2>
+    <div class="card">
+      <p>
+        A motivated and hardworking Computer Science graduate with a passion for building efficient and scalable software solutions. Skilled in Python and frontend web technologies, with experience in developing user-friendly applications. Known for adaptability, leadership, and a collaborative mindset. Seeking to join a dynamic team to apply my skills and grow as a professional developer.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Technical Skills</h2>
+    <div class="card"><span class="highlight">Languages:</span> Python</div>
+    <div class="card"><span class="highlight">Operating System:</span> Windows</div>
+    <div class="card"><span class="highlight">Other Interests:</span> Web Development</div>
+    <div class="card"><span class="highlight">Soft Skills:</span> Decision Making, Management & Coordination</div>
+  </section>
+
+  <section id="education" class="container">
+    <h2>Education</h2>
+    <div class="card">
+      <strong>B.Tech - Computer Science Engineering</strong><br>
+      Madanapalle Institute of Technology & Science | 2020–2026 | CGPA: 8.84
+    </div>
+    <div class="card">
+      <strong>Intermediate (BIEAP)</strong><br>
+      Nucleus Junior College, Nandyal | 2020–2022 | 93.7%
+    </div>
+    <div class="card">
+      <strong>SSC</strong><br>
+      Sri Guru Raghavendra English Medium High School | 2019–2020 | 98%
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="card">
+      <strong>Number Guessing Game</strong><br>
+      A Python-based interactive game where the computer selects a random number and the player tries to guess it. Provides hints if the guess is too high or too low, making it fun and engaging for users.
+    </div>
+  </section>
+
+  <section id="training" class="container">
+    <h2>Training & Internships</h2>
+    <div class="card">
+      <p><strong>Internship:</strong> SlashMark</p>  
+      <p><strong>Duration:</strong> 45 Days </p> 
+      <p><strong>Project:</strong> Number Guessing Game (Python)  
+      Developed a fully functional game with a simple UI and logic to teach fundamentals of programming.</p>
+    </div>
+  </section>
+
+  <section id="achievements" class="container">
+    <h2>Achievements & Certifications</h2>
+    <div class="card">
+      Achieved <strong>Elite</strong> in Research Methodology course offered by NPTEL.
+    </div>
+    <div class="card">
+      Certified in <strong>The Joy of Computing using Python</strong> from NPTEL.
+    </div>
+    <div class="card">
+      Participated in multiple cricket tournaments representing my college.
+    </div>
+  </section>
+
+  <section id="extras" class="container">
+    <h2>More About Me</h2>
+    <div class="card">
+      <strong>Languages Known:</strong> English, Telugu
+    </div>
+    <div class="card">
+      <strong>Hobbies & Interests:</strong> Playing Cricket, Learning New Technologies
+    </div>
+    <div class="card">
+      <strong>Personal Details:</strong><br>
+      Date of Birth: 5th February 2005<br>
+      Father’s Name: D. Naganna<br>
+      Mother’s Name: D. Krishnaveni
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <div class="card">Email: <a href="mailto:22691A05M0@mits.ac.in" style="color:#ffce00;">22691A05M0@mits.ac.in</a></div>
+    <div class="card">Email: <a href="mailto:suresh47119@gmail.com" style="color:#ffce00;">suresh47119@gmail.com</a></div>
+    <div class="card">Phone: +91 7993072569 | +91 6309439861</div>
+    <div class="card">LinkedIn: <a href="http://www.linkedin.com/in/suresh-dasari-b6b965272" target="_blank" style="color:#ffce00;">View Profile</a></div>
+  </section>
+
+  <footer>
+    &copy; 2025 Suresh Dasari. All rights reserved.
+  </footer>
+
+  <!-- GSAP Animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script>
+    gsap.from("header img", { duration: 1, y: -60, opacity: 0 });
+    gsap.from("h1", { duration: 1, y: -30, opacity: 0, delay: 0.3 });
+    gsap.from("nav a", { duration: 1, y: -10, opacity: 0, stagger: 0.2, delay: 0.5 });
+    gsap.from(".card", { duration: 1, opacity: 0, y: 30, stagger: 0.2, delay: 1 });
+  </script>
+
+</body>
+</html>
